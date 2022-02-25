@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+h2{
+    text-align: center;
+}
+.header{
+    display: flex;
+}
+.first-container img{
+    width: 200px;
+}
+
+.first-container{
+    height: 500px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(250,251,214);
+    border-radius: 10px;
+    background-color: rgb(250,251,214);
+
+
+}
+.first-container .row{
+    margin-top: 5%;
+}
+.header{
+    display: flex; /* header sınıfına sahip etiket artık flex olur ve yan yana sıralanır. */
+    justify-content: space-between; /* space-between, aralarında eşit uzaklık olacak. space-evenly,  başta ve sonda da eşit aralık bırakır. space-around, başlangıçtaki ve sondaki mesafe ögelerin arasındaki mesafenin yarısı kadar olacak şekilde mesafe bırakır */
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+.header .logo{
+    font-size:  25px;
+    font-weight: bold;
+    color: #111;
+    letter-spacing: 2px;
+}
+
+.header .list{
+    display: flex;
+}
+
+.header .list li{
+    margin: 0 20px;
+    list-style: none;
+}
+.header ul li  {
+    font-size: 15px;
+    color: #333;
+    
+}
+.header .list li a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header .login  {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: orange;
+    color: black;
+}
+.card{
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.form-style input{
+    border-radius: 10px;
+    width: 700px;
+}
+.form-style button{
+    border-radius: 10px;
+}
+
+.form-style{
+    width: 800px;
+    height: 800px;
+    margin-left: 27%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(254,191,125);
+}
+.form-style label, .form-style button{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.card a{
+    margin-left: 50px;
+    color: white;
+    border: 1px solid rgb(68,75,255);
+    background-color: rgb(68,75,255);
+    text-decoration: none;
+}
+.bootcamp-cards img{
+    width: 300px;
+}
+.bootcamp-cards a {
+    margin-left: 50px;
+    color: white;
+    border: 1px solid rgb(68,75,255);
+    background-color: rgb(68,75,255);
+    text-decoration: none;
+}
+.bootcamp-cards:hover{
+    box-shadow: 5px 10px #888888;
+}
+.bootcamps{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
